@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/jq1.7.js"></script>
+    <title>借款人信息</title>
+    <style>
+		html,body { margin: 0; padding: 0; }
+		body {color:#666;  background:#F0EFF4;font-family: "微软雅黑",sans-serif;font-size:0.28rem;}
+		table { border-collapse:collapse; border-spacing:0; empty-cells:show; }
+		.main {padding:0.28rem 0.3rem;background:#fff;}
+		.main >span {display:block;color:#FB705D;margin-bottom:0.30rem;}
+		.main p {line-height:0.45rem;margin-bottom:0.3rem;color:#666;text-align:Justify;margin-top:-2px;}
+		a:hover {text-decoration: none;}
+		.main>table  {width:100%; border:1px solid #D9D9D9;margin-bottom:0.3rem;}
+		.main>table td {border:1px solid #E3E7E8;min-height:0.8rem;line-height:0.44rem;padding:0.2rem 0 0.2rem 0.15rem;color:#444;white-space: normal;min-height:0.4rem;line-height:0.3rem;}
+		.main>table td >span{display: block;line-height: 0.44rem;}
+		.main>table th {padding:0.2rem 0 0.2rem 0.15rem;min-height:0.8rem; width:2.5rem;background:#F8F9F8;border:1px solid #E3E7E8;font-weight:normal;text-align:left;}
+		.main span+div {border: 1px solid #E3E7E8;padding: 0.3rem 0.3rem 0.3rem 0.15rem;margin-bottom:0.3rem;}
+		.main span+div table td {vertical-align: top;}
+        .main ol {height: 3rem;padding: 0;border: 1px solid #E3E7E8; }
+        .main li { list-style:decimal; list-style-position:outside; margin:.3rem .3rem .3rem .5rem;  }
+        .main ol { overflow: hidden; text-align: center; height:3rem; }
+        .main .prev_btn {margin:1.3rem 0.3rem;width: 0.2rem;float: left; display:none;}
+        .main .list_img {width: 4.94rem;height: 2.4rem;margin:0.3rem 0.13rem;display: inline-block;overflow: hidden;}
+        .main .next_btn { margin:1.3rem 0.3rem 0 0;width: 0.2rem;float: right; display: none;}
+        .main .list_img img { background:#F8F9F8;  margin:.0; border: 0; height: 2.4rem;width: 2.1rem;
+        background: #F2F2F2;display: inline-block;float: left;margin: 0 0.17rem;}
+        .main .list_img img+img { margin-left: }
+    </style>
+
+</head>
+<body>
+    
+	<div class="main">	
+		<span>项目介绍</span>
+		<p style="margin-bottom: 0.6rem;">
+			　　亲亲小贷是一家专业的网贷信息撮合平台，主要为用户提供纯线上的小额信用借款和小额分散出借之间的信息撮合服务。亲亲小贷的核心产品包括移动借款App“亲亲小贷”和出借平台 “亲亲小贷官网”、移动出借App“亲亲小财”。
+         	<br />
+         	　　亲亲小贷由北京深蓝动力金融信息服务有限公司（以下简称公司）运营，公司核心团队由金融和互联网行业跨界资深人士组成。依托丰富的业内资源和雄厚的资金支持，亲亲小贷专注于为国内中低收入阶层（蓝领、初级白领等，不提供学生贷）提供小额借款与出借撮合服务，打造技术先进的，以大数据分析为核心风控模型的移动互联网金融平台。我们深信并坚定实践“小额借钱不求人”的理念，顺应移动互联网技术的发展潮流，致力于为普通民众提供安全、方便、快捷的普惠金融服务。
+		</p>
+		<span>借款概要</span>
+		<table>
+			<tr><th>借款用途</th><td>平行进口车-车辆定向采购 </td></tr>
+			<tr><th>借款来源</th><td>平行进口车 </td></tr>
+	       
+		</table>
+		<span>企业信息</span>
+		<table>
+			<tr><th>企业名称</th><td><span>企业名称企业名称企业名称企业名称企业名称</span></td></tr>
+			<tr><th>企业类型</th><td>有限公司</td></tr>
+			<tr><th>统一社会信用代码</th><td>12341234****1234</td></tr>
+			<tr><th>成立日期</th><td>2014年3月20日</td></tr>
+			<tr><th>法定代表人</th><td><span>姓名（电话）</span><span>北京省、北京市</span></td></tr>
+		</table>
+		
+		<span>风控保障措施</span>
+		<div>
+			<table border="0" cellspacing="" cellpadding="">
+				<tr style="height:0.55rem;"><td>1、</td><td>已完成对借款企业及项目的详尽调查；</td></tr>
+				<tr><td>2、</td><td>项目由北京安家世行融资担保有限公司提供连带责任担保。</td></tr>
+			</table>
+		</div>
+        <span>相关资料展示</span>
+        <ol>
+            <img class="prev_btn" src="../images/left.png"  />
+            <div class="list_img">
+                <img src="" alt="1" />
+                <img src="" alt="2" />
+                <img src="" alt="3" />
+                <img src="" alt="4" />
+                <img src="" alt="5" />
+                <img src="" alt="6" />
+                <img src="" alt="7" />
+            </div>
+            <img class="next_btn" src="../images/right.png" />
+        </ol>
+    </div>
+    
+
+    <script type="text/javascript">
+        //字体自适应js代码开始
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+        //字体自适应js代码结束
+
+
+        var list_imgs = $(".list_img img");
+        if (list_imgs.length > 2 ) {
+            $("ol > img").show();
+        }
+        var list_index = 0;
+        $(".prev_btn").on("click", function() {
+            if (list_index - 1 < 0) {
+                return;
+            } else {
+                list_index -= 1;
+            }
+            list_imgs.hide();
+            list_imgs.eq(list_index).show();
+            list_imgs.eq(list_index+1).show();
+        });
+        $(".next_btn").on("click", function() {
+             if (list_index + 1 >= list_imgs.length -1) {
+                return;
+            } else {
+                list_index += 1;
+            }
+            list_imgs.hide();
+            list_imgs.eq(list_index).show();
+            list_imgs.eq(list_index+1).show();
+        });
+
+    </script>
+
+</body>
+</html>
